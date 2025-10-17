@@ -1,20 +1,11 @@
 package com.klu.hospital;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootApplication
-public class HospitalApplication extends SpringBootServletInitializer {
+@SpringBootTest(classes = HospitalApplication.class)
+class HospitalApplicationTests {
 
-    public static void main(String[] args) {
-        SpringApplication.run(HospitalApplication.class, args);
-        System.out.println("hello");
-    }
-
-    @Override
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        return builder.sources(HospitalApplication.class);
-    }
+    @Test
+    void contextLoads() {}
 }
