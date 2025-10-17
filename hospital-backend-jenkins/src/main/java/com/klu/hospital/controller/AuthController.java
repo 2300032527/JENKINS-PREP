@@ -10,6 +10,11 @@ import java.util.Map;
 @CrossOrigin(origins = "*")
 public class AuthController {
     private final UserService userService;
+ 
+     @GetMapping("/")
+    public String home() {
+        return "Hospital Backend is running!";
+    }
 
     public AuthController(UserService userService) {
         this.userService = userService;
