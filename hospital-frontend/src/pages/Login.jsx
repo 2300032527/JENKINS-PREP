@@ -2,7 +2,8 @@ import { useState } from "react";
 import axios from "axios";
 import { useNavigate, Link } from "react-router-dom";
 import "../App.css";
-import config from './config';  
+import config from "../../config";
+ 
 
 
 export default function Login() {
