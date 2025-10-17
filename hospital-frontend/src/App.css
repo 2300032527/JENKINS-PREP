@@ -1,3 +1,11 @@
+/* ================= Body & Global ================= */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7faff;
+}
+
+/* ================= Auth Page ================= */
 .auth-container {
   display: grid;
   place-items: center;
@@ -51,7 +59,8 @@
   transform: scale(1.05);
 }
 
-dashboard-grid {
+/* ================= Dashboard Layout ================= */
+.dashboard-grid {
   height: 100vh;
   display: grid;
   grid-template-areas:
@@ -61,7 +70,7 @@ dashboard-grid {
   grid-template-rows: 70px auto;
 }
 
-
+/* Header */
 .header {
   grid-area: header;
   background: linear-gradient(to right, #0077b6, #0096c7);
@@ -72,6 +81,7 @@ dashboard-grid {
   justify-content: center;
 }
 
+/* Sidebar */
 .sidebar {
   grid-area: sidebar;
   background: #e0f7fa;
@@ -98,12 +108,14 @@ dashboard-grid {
   transform: scale(1.05);
 }
 
+/* Content Area */
 .content {
   grid-area: content;
   padding: 30px;
   background: #f7faff;
 }
 
+/* Cards in Content */
 .cards {
   display: flex;
   gap: 20px;
@@ -128,6 +140,7 @@ dashboard-grid {
   transform: translateY(-5px);
 }
 
+/* Navbar (Optional) */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -163,5 +176,8 @@ dashboard-grid {
   color: #caf0f8;
   transform: scale(1.1);
 }
+
+/* Ensure full height */
 .header, .sidebar, .content {
   height: 100%;
+}
