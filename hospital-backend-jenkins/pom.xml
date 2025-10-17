@@ -95,7 +95,7 @@
 
 
   <build>
-  <finalName>springbootlibraryapi</finalName>
+  <finalName>springboothospitalapi</finalName>
     <plugins>
       <!-- Maven Plugin for WAR packaging -->
       <plugin>
