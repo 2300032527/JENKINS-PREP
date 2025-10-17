@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+C:\labexm\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3197867891.index
+3974657686.index
+672094097.index
+248813625.index
+775506996.index
