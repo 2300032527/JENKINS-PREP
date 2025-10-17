@@ -1,13 +1,11 @@
-package com.klu.ecommerce;
+package com.klu.hospital;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
-class EcommerceApplicationTests {
+@SpringBootTest(classes = HospitalApplication.class)
+class HospitalApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
-
+    @Test
+    void contextLoads() {}
 }
